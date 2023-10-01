@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colorify</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script defer src="index.js"></script>
 </head>
+
 <body>
     <div class="container">
         <h1>Colorify</h1>
+
+        <p class="subheading">
+            with colorify, we want to start learning javascript
+        </p>
+        <div class="circle" id="circleId"></div>
+        <div class="action">
+            <button type="button" onclick="paint('red')">Red</button>
+            <button type="button" onclick="paint('yellow')">Yellow</button>
+            <button type="button" onclick="paint('green')">Green</button>
+            <button type="button" onclick="paint('random')">Random</button>
+
+        </div>
     </div>
 </body>
+
 </html>
