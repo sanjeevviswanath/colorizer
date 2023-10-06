@@ -1,18 +1,17 @@
-.circle{
-    
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.action{
-    margin: 20px;
+.action {
+  margin: 20px;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
